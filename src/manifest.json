@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Get all tab URLS",
+    "version": "0.0.1",
+    "description": "Gotta get the all",
+    "action": {
+        "default_popup": "popup/popup.html"
+      },
+    "commands": {
+      "_execute_action": {
+        "description": "Open the extension"
+      }
+    },
+      "permissions": [
+        "tabs",
+        "clipboardWrite"
+      ]
+  }
